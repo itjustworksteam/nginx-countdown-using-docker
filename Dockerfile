@@ -1,4 +1,5 @@
 FROM nginx
+MAINTAINER therickys93@gmail.com
 
 RUN mkdir /etc/nginx/logs && touch /etc/nginx/logs/static.log
 
