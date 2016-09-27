@@ -5,12 +5,7 @@
 
 ## compile and run this project
 
-    git clone https://github.com/therickys93/nginx-countdown-using-docker.git
+    git clone https://github.com/itjustworksteam/nginx-countdown-using-docker.git
     cd nginx-countdown-using-docker/
     docker build -t <name_that_you_want> .
     docker run -d -p <port_out>:<port_in> <name_that_you_want>
-    
-# download the docker image
-
-    docker pull therickys93/nginx-countdown-using-docker
-    docker run -d -p <port_out>:<port_in> therickys93/nginx-countdown-using-docker
